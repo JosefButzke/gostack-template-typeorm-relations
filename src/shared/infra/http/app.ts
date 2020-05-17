@@ -5,9 +5,9 @@ import 'express-async-errors';
 import cors from 'cors';
 
 import AppError from '@shared/errors/AppError';
+
 import createConnection from '@shared/infra/typeorm';
 import routes from './routes';
-
 import '@shared/container';
 
 createConnection();
